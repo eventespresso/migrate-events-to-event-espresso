@@ -1,0 +1,62 @@
+/* Source cards (migration_source_cards.template.php) */
+.ee-event-migrator-cards-fieldset {
+    border: 0;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+}
+
+.ee-event-migrator-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.ee-event-migrator-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    min-width: 220px;
+    padding: 12px 16px;
+}
+
+.ee-event-migrator-card-disabled {
+    background: #f6f7f7;
+    color: #50575e;
+}
+
+.ee-event-migrator-version {
+    color: #646970;
+    margin-left: 6px;
+}
+
+.ee-event-migrator-card-scope,
+.ee-event-migrator-card-status,
+.ee-event-migrator-card-reason {
+    margin: 4px 0;
+}
+
+.ee-event-migrator-card-reason {
+    color: #996800;
+}
+
+/* Inventory, confirm summary and report (migration_*.template.php); colours come from core's .ee-attention */
+.ee-event-migrator-notice {
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.ee-event-migrator-table {
+    margin-bottom: 20px;
+}
+
+.ee-event-migrator-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.ee-event-migrator-actions .button {
+    margin-right: 8px;
+}
